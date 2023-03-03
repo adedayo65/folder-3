@@ -1,0 +1,111 @@
+body{
+     
+     margin: 10px auto;
+
+}
+  .container{ font-size: 14px;
+             background-color: hsl(210, 46%, 95%)
+             ;
+             width: 100%;
+             border: none;
+             border-radius: 3px;
+             box-shadow: -30px 25px 25px -30px ;
+             margin-left: -40px;
+             padding: -10px;
+          
+                             
+             
+            }
+   .sub1{ grid-column: 1/3;
+          grid-row: 1/2;
+          background-color: rgb(156, 76, 231);
+          align-items: center;
+          padding: 20px;
+         width: 400px;
+          border-radius: 6px;
+          box-shadow: 5px 5px 5px;
+          height: 190px;        
+          margin-left: -0.5px;          
+   }
+      img{  margin-top: -20px;
+              border-radius: 50%;
+              width: 8%;
+      }
+      .card1{ margin-top: -38px;
+               margin-left:60px;
+              
+      }
+         .sub2{ width: 180px;
+                height: 170px;
+                padding: 30px;
+                margin-left: -60px;
+                grid-column: 3/4;
+                 grid-row: 1/2;
+                background-color:  hsl(217, 19%, 35%);
+                border-radius: 6px;
+                box-shadow: 5px 5px 5px; 
+        
+         }
+          .sub3{ padding: 30px;
+                  margin-top: 10px;
+                  margin-left: -40px;
+                 width: 200px;
+                 height: 400px; 
+                  grid-column: 4/5;
+                 grid-row: 1/3;
+                 background-color:  hsl(210, 46%, 95%);
+                   border-radius: 6px;
+                   box-shadow: 5px 5px 5px;
+                   }
+          
+          
+           .sub4{ 
+                  padding: 30px;            
+                 width: 200px;
+                   height: 180px; 
+                  grid-column: 1/2;
+                  grid-row: 2/3;
+            background-color: hsl(210, 46%, 95%);  
+            border-radius: 6px;
+            box-shadow: 5px 5px 5px;
+          
+          
+   
+           } 
+            .sub5{ 
+                   grid-row: 2/3;
+                   grid-column: 2/4;
+              background-color:  hsl(219, 29%, 14%);
+              border-radius: 6px;
+              box-shadow: 5px 5px 5px;       
+              width: 390px;
+              height: 190px;
+              padding: 20px; 
+              margin-left: 2px;
+            }
+            .t1{
+                  color: white;
+            }
+            .parent{ 
+                   padding: 90px;
+                   display: grid;
+                   grid-template-columns: 1fr 1fr 1fr 1fr;
+                   grid-template-rows: 250px 250px;
+                   grid-area: "sub1 sub1 sub2 sub3 sub4 sub5 sub5 sub3";
+                   row-gap: 20px;
+                   column-gap: 20px;
+
+            }
+          #text1{
+                  font-size: 20px;
+          }
+          #text2{
+                  font-weight: 20px;
+                  color: grey;
+          }
+          .t1{
+               color:gray;
+          } 
+          .b1{
+              color: white;
+          }
